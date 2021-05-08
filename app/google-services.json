@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434074285780",
+    "project_id": "alzheimerkontrol",
+    "storage_bucket": "alzheimerkontrol.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434074285780:android:db787b86d8bcc4871ead41",
+        "android_client_info": {
+          "package_name": "com.example.alzheimerkontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434074285780-mtpcvaum9f2b1rdsjfdf4sqpo6p22nj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPipSWVUpVmkQoWwgRM6isjq6hpSO2QuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434074285780-mtpcvaum9f2b1rdsjfdf4sqpo6p22nj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

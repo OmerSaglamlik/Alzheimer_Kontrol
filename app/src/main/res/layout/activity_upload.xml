@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="addPictures"
+        android:src="@drawable/resimekle" />
+    <EditText
+        android:id="@+id/Isim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:hint="Ad"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/SoyIsim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Isim"
+        android:hint="Soyad"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/FamilyMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SoyIsim"
+        android:hint="Neyin Oluyor?"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/BirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FamilyMember"
+        android:hint="Doğum Tarihi"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BirthDate"
+        android:hint="Şehir"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <EditText
+        android:id="@+id/Info"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@id/City"
+        android:hint="Açıklama"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:id="@+id/BilgiKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_below="@id/Info"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="75dp"
+        android:onClick="upload"
+        android:text="Kaydet" />
+
+
+
+
+</RelativeLayout>

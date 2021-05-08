@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lime">
+
+
+    <ImageView
+        android:id="@+id/recycler_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/recycler_textView_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        />
+
+    <TextView
+        android:id="@+id/recycler_textView_LastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_textView_Name"
+        android:layout_centerHorizontal="true"
+        android:text="LastName" />
+
+    <TextView
+        android:id="@+id/recycler_textView_FamilyMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_textView_LastName"
+        android:layout_centerHorizontal="true"
+        android:text="Aile Üyesi" />
+    <TextView
+        android:id="@+id/recycler_textView_City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_textView_FamilyMember"
+        android:layout_centerHorizontal="true"
+        android:text="Yaşadığı Şehir" />
+    <TextView
+        android:id="@+id/recycler_textView_BirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_textView_City"
+        android:layout_centerHorizontal="true"
+        android:text="Doğum Tarihi" />
+    <TextView
+        android:id="@+id/recycler_textView_Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_textView_BirthDate"
+        android:layout_centerHorizontal="true"
+        android:text="Açıklama" />
+</RelativeLayout>
