@@ -58,6 +58,7 @@ public class FeedRecyclerAdapter extends RecyclerView.Adapter<FeedRecyclerAdapte
 
     @Override
     public int getItemCount() {
+
         return userNameList.size();
     }
 

@@ -7,6 +7,9 @@
         android:id="@+id/Harita"
         android:title="Haritalar"/>
         <item
+         android:id="@+id/Kullanici"
+         android:title="Kullanıcılar"/>
+        <item
         android:id="@+id/signout"
         android:title="Çıkış Yap"/>
 </menu>

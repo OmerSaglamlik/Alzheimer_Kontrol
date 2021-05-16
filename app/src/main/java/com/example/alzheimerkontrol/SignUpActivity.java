@@ -45,7 +45,7 @@ public class SignUpActivity extends AppCompatActivity {
         firebaseAuth.signInWithEmailAndPassword(email, password).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
             @Override
             public void onSuccess(AuthResult authResult) {
-                Intent intent = new Intent(SignUpActivity.this,FeedActivity.class);
+                Intent intent = new Intent(SignUpActivity.this,UserActivty.class);
                 startActivity(intent);
                 finish();
             }
@@ -64,7 +64,7 @@ public class SignUpActivity extends AppCompatActivity {
             @Override
             public void onSuccess(AuthResult authResult) {
                 Toast.makeText(SignUpActivity.this,"Kullanıcı Oluşturuldu.",Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(SignUpActivity.this,FeedActivity.class);
+                Intent intent = new Intent(SignUpActivity.this,UserActivty.class);
                 startActivity(intent);
                 finish();
             }

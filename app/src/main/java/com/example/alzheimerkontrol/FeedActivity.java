@@ -61,6 +61,10 @@ public class FeedActivity extends AppCompatActivity {
             Intent intentToMaps = new Intent(FeedActivity.this, MapsActivity.class);
             startActivity(intentToMaps);
         }
+        else if (item.getItemId()==R.id.Kullanici){
+            Intent intentToMaps = new Intent(FeedActivity.this, UsersListActivity.class);
+            startActivity(intentToMaps);
+        }
         return super.onOptionsItemSelected(item);
     }
 
